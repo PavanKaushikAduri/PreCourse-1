@@ -1,3 +1,17 @@
+# Time Complexity :
+#       append: O(n) - adding a new node at the end of the linked list.
+#       find: O(n) - searching for a node with a specific key in the linked list.
+#       remove: O(n) - removing a node with a specific key from the linked list.
+# Space Complexity : O(N) - N is the number of elements in the linked list, each element is stored as a node in the linked list.
+
+# Did this code successfully run on Leetcode : Yes
+
+# Any problem you faced while coding : while removing the base case where prev is None is missed. i should check for prev is not None and if its None then self.head = current.next.
+
+
+# Your code here along with comments explaining your approach
+
+
 class ListNode:
     """
     A node in a singly-linked list.
